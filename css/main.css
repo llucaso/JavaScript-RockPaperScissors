@@ -1,0 +1,38 @@
+* {
+  margin: 0; }
+
+body {
+  background-image: url(../Images/rock-paper-scissors-wallpaper-1.jpg);
+  background-position: center; }
+
+.container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  font-family: 'lato'; }
+  .container .label-danger, .container .label-info, .container .label-default {
+    padding: 20px;
+    margin-left: 25px; }
+
+.row {
+  font-size: 25px; }
+
+.btn {
+  padding: 15px;
+  font-size: 20px; }
+
+#js-resultsTableElement {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  color: white;
+  height: 125px; }
+
+/*# sourceMappingURL=main.css.map */
